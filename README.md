@@ -1,6 +1,10 @@
 # Docker to install GNU Radio 3.8 via Pybombs
 A Dockerfile to install GNU Radio via Pybombs that works in 2021 (with Ubuntu 20.04 and Python 3.8.5 and GNU Radio 3.8), differently from all the other stuff that I am seeing throughout the internet.
 
+This Dockerfile is a modified version of the one found on https://medium.com/@kazazes/dockerized-gnu-radio-is-the-only-way-ta-o-gnu-radio-dda55d490c55
+
+The modifications allow you to install a newer version of GNU Radio Companion with QT GUI visualization tools, among other stuff. 
+
 This might not be the best Dockerfile ever, but gets the job done. I encourage everyone to upgrade it to their needs.
 
 To build the container:
